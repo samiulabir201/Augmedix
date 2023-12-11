@@ -1,0 +1,42 @@
+/* App.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-container {
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.logo {
+  width: 200px; /* Adjust the width as needed */
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dropdown {
+  margin-bottom: 20px; /* Add some space between dropdowns */
+  width: 200px; /* Set a fixed width for dropdowns */
+  display: inline-table; /* Make dropdowns display inline */
+}
+
+.button {
+  margin-top: 20px; /* Add space between the last dropdown and the button */
+}
+
+.textbox {
+  margin-top: 25px;
+  border: 1px solid #080808;
+  padding: 10px;
+  width: auto;
+  size-adjust: auto;
+
+}
